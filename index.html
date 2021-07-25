@@ -15,7 +15,7 @@
     <!-- header start -->
     <header>
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container my-3">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,16 +27,16 @@
 
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoe</a>
+                            <a class="nav-link" href="#Shoe">Shoe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -68,7 +68,7 @@
         </section> -->
 
         <!-- image slider start -->
-        <section class="container image-slider">
+        <section class="container image-slider mt-5 pt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -180,7 +180,7 @@
         <!-- categories end -->
 
         <!-- shoe start -->
-        <section class="container my-3">
+        <section id="Shoe" class="container my-3">
             <h2 class="text-dark py-3">
                 Shoes
             </h2>
@@ -241,7 +241,7 @@
         <!-- shoe start -->
 
         <!-- backpack start -->
-        <section class="container my-3">
+        <section id="Backpack" class="container my-3">
             <h2 class="text-dark py-3">
                 Backpack
             </h2>
@@ -300,12 +300,28 @@
             </div>
         </section>
         <!-- backpack end -->
+
+        <!-- Subscribe start -->
+        <section id="Subscribe" class="container bg-info d-flex justify-content-center align-items-center p-5">
+            <div>
+                <h3>LET'S STAY IN TOUCH</h3>
+                <p>Get updates on sales specials and more</p>
+                <form action="">
+                    <input class="border-0 py-3 px-5" type="email" name="email" id="email"
+                        placeholder="Enter your email">
+                    <br>
+                    <button height="73px" class="btn btn-warning border-0 py-3 px-5">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
     <!-- main start -->
 
     <!-- footer start -->
-    <footer>
-
+    <footer class="mt-5 text-center">
+        <p><small>&copy;2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
     <!-- footer end -->
 
